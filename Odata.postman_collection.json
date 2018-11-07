@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "f2693b99-1194-4c8c-b0e8-ac9e37b8a9b1",
+		"name": "Odata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/odata/Books?$filter=Price le 50&$expand=Press($select=Name)&$select=ISBN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/odata/Books?$filter=Price le 50&$expand=Press($select=Name)&$select=ISBN",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"odata",
+						"Books"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "Price le 50"
+						},
+						{
+							"key": "$expand",
+							"value": "Press($select=Name)"
+						},
+						{
+							"key": "$select",
+							"value": "ISBN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/odata/Books?$filter=Price le 100",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/odata/Books?$filter=Price le 100",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"odata",
+						"Books"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "Price le 100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/odata/Books",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ISBN\":\"82-917-7192-5\",\"Title\":\"Hary Potter\",\"Author\":\"J. K. Rowling\",\n  \"Price\":199.99,\n  \"Location\":{\n     \"City\":\"Shanghai\",\n     \"Street\":\"Zhongshan RD\"\n   }\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/odata/Books",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"odata",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " https://localhost:5001/odata/Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/odata/Books",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"odata",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
