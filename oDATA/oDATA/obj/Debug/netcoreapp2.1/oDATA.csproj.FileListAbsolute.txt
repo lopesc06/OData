@@ -1,0 +1,14 @@
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/bin/Debug/netcoreapp2.1/oDATA.deps.json
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/bin/Debug/netcoreapp2.1/oDATA.runtimeconfig.json
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/bin/Debug/netcoreapp2.1/oDATA.runtimeconfig.dev.json
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/bin/Debug/netcoreapp2.1/oDATA.dll
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/bin/Debug/netcoreapp2.1/oDATA.pdb
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.csprojAssemblyReference.cache
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.csproj.CoreCompileInputs.cache
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.RazorAssemblyInfo.cache
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.RazorAssemblyInfo.cs
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.AssemblyInfoInputs.cache
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.AssemblyInfo.cs
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.RazorTargetAssemblyInfo.cache
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.dll
+/Users/javiercruzsantiago/Desktop/oDATA/oDATA/obj/Debug/netcoreapp2.1/oDATA.pdb
